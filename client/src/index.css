@@ -1,0 +1,54 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: deliverywala --default;
+}
+
+@plugin "daisyui/theme" {
+  name: "deliverywala";
+  default: true;
+  color-scheme: light;
+
+  --color-base-100: #F8FAFC;
+  --color-base-200: #E2E8F0;
+  --color-base-300: #CBD5E1;
+  --color-base-content: #0F172A;
+
+  --color-primary: #0D9488;
+  --color-primary-content: #F8FAFC;
+
+  --color-secondary: #CCFBF1;
+  --color-secondary-content: #0F172A;
+
+  --color-accent: #0D9488;
+  --color-accent-content: #F8FAFC;
+
+  --color-neutral: #475569;
+  --color-neutral-content: #F8FAFC;
+
+  --color-info: #0EA5E9;
+  --color-info-content: #F8FAFC;
+
+  --color-success: #16A34A;
+  --color-success-content: #F8FAFC;
+
+  --color-warning: #F59E0B;
+  --color-warning-content: #0F172A;
+
+  --color-error: #DC2626;
+  --color-error-content: #F8FAFC;
+
+  --radius-selector: 0.5rem;
+  --radius-field: 0.5rem;
+  --radius-box: 0.75rem;
+
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
